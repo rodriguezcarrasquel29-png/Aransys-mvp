@@ -1,3 +1,9 @@
+## 4. Compatibilidad de Sistemas (Cross-Platform)
+* **Sistemas Operativos Soportados:** Windows (7, 10, 11), macOS, Linux (Ubuntu, Debian, Fedora), Android e iOS.
+* **Navegación Universal:** La web debe mantener el 100% de su funcionalidad en cualquier navegador que soporte estándares modernos (HTML5/ES6+).
+* **Cero Dependencia de Plugins:** No se requerirá la instalación de Java, Flash o ejecutables externos (.exe/.deb) para operar el núcleo del negocio.
+* **Optimización de Recursos:** El consumo de memoria RAM debe ser eficiente para permitir que computadoras antiguas (de tienda o taller) operen el sistema sin lentitud.
+0
 # ARansys - Diseño de Interfaz y Adaptabilidad (PWA)
 
 ## 1. Experiencia de Escritorio (PC/Laptop)
