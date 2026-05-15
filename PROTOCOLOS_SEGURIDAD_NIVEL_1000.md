@@ -22,3 +22,14 @@
   * Gestión de retiros de saldo.
   * Cambio de contraseña o correos de contacto.
 * **Optimización de Notificaciones:** Uso de tecnología Push y WebSockets para garantizar que la tienda reciba alertas de chat y ventas sin necesidad de refrescar la sesión o re-ingresar credenciales.
+# ARansys - Seguridad de Enlace e Información (Modelo Puente)
+
+## 1. Misión de Seguridad
+ARansys no es una pasarela de pago. Su función es garantizar que la información de contacto, cuentas bancarias y direcciones fluya de forma íntegra y privada entre las partes.
+
+## 2. Inmutabilidad de Datos de Pago
+* **Cero Edición:** Una vez que una tienda registra sus métodos de pago, cualquier modificación requiere el PIN del Propietario.
+* **Blindaje en Chat:** Los datos de pago enviados al cliente dentro del chat son 'Solo Lectura'. El sistema garantiza que el cliente reciba exactamente lo que el dueño de la tienda configuró.
+
+## 3. Privacidad y Acceso
+* **Visualización Dinámica:** La información sensible (direcciones exactas, teléfonos) está oculta por defecto y solo se revela a la contraparte cuando existe una transacción activa y validada en el chat.
