@@ -27,3 +27,8 @@
   2. Un técnico especialista valida compatibilidad.
   3. Se cierra la venta con la Tienda o se recomienda el repuesto correcto.
 * **Criterio de Permanencia (Factibilidad):** El módulo será evaluado tras 90 días de operación. Si las ventas asistidas representan un incremento significativo y las devoluciones bajan, se integra como función permanente.
+## 6. Motor de Búsqueda Interno (Cero Costos Externos)
+* **Arquitectura:** Búsqueda basada en coincidencia de patrones (Pattern Matching) y diccionarios de sinónimos internos.
+* **Indexación Local:** Toda la lógica de búsqueda corre en nuestro servidor, eliminando pagos a terceros (Google/Bing).
+* **Optimización de Consultas:** Uso de filtros jerárquicos (Marca > Modelo > Pieza) para reducir la carga del servidor.
+* **Independencia Tecnológica:** El sistema debe ser 100% funcional sin dependencias de APIs de pago externas.
