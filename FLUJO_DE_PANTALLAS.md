@@ -23,3 +23,11 @@
 * Formulario de calificación (Estrellas).
 * Botón de 'Apelación' (Solo visible si hay calificación negativa).
 * Botón 'Solicitar Instalación' (Vincula a un técnico).
+## PANTALLA 4: TRANSACCIÓN Y SEGUIMIENTO
+* **Pago Directo:** El sistema facilita la transferencia de saldo entre el Cliente y la Tienda. ARansys NO retiene ni congela fondos.
+* **Confirmación de Disponibilidad:** Se recomienda el uso del chat interno antes de procesar el pago para validar stock físico.
+* **Resolución de Conflictos de Stock:** En caso de error de inventario post-pago, la Tienda es responsable directa de la devolución del dinero al Cliente. ARansys actúa como testigo del registro de la transacción para posibles apelaciones.
+## 6. PROTOCOLO DE VALIDACIÓN PRE-COMPRA
+* **Interacción Obligatoria:** El flujo de UI debe incentivar al usuario a usar el chat de confirmación antes de procesar cualquier pago.
+* **Estado de Inventario Dinámico:** Si la tienda confirma disponibilidad por chat, se genera un 'Token de Validación' temporal (ej. 15 min) que permite al cliente finalizar la compra.
+* **Responsabilidad de Actualización:** Es deber de la Tienda marcar productos como 'Agotados' manualmente si la venta se realiza fuera de la plataforma (Venta de mostrador).
