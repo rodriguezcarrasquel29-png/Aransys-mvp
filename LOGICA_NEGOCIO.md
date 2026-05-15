@@ -45,3 +45,6 @@ Para garantizar la equidad en el sistema de "Pago por Selección", se establece 
 * **Derecho a Reclamo:** Si tras el descuento de los $3.00 el técnico no logra establecer contacto con el cliente (número errado, el cliente no responde tras 24h, o el servicio fue cancelado por el cliente antes de la visita), el técnico podrá presionar el botón "Reportar Incidencia".
 * **Validación:** ARansys verificará la situación (mediante un mensaje rápido al cliente o revisión de tiempos).
 * **Reembolso:** De comprobarse la falla en el contacto, los $3.00 serán devueltos íntegramente al "Saldo Real" del monedero del técnico en un plazo máximo de 12 horas.
+## 4. Protocolo de Sostenibilidad Cambiaria
+* **Respaldo Inmediato:** Todo ingreso en moneda local (Bs) será procesado bajo la Tasa ARansys para su inmediata conversión a divisas.
+* **Garantía de Valor:** El sistema garantiza al usuario que 1.00 USD dentro de la plataforma mantendrá su poder adquisitivo para todos los servicios internos (Delivery, Contactos, Comisiones), independientemente de la fluctuación del mercado cambiario venezolano.
