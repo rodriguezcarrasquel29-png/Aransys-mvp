@@ -22,3 +22,26 @@ Para eliminar la fricción en la cobranza y asegurar el flujo de caja, ARansys i
 * **Técnicos:** Prestadores de servicio especializado bajo modalidad de monedero por contacto efectivo.
 * **Riders (Delivery):** Gestión logística con comisiones por zona (Anillo 1: $2, Anillo 2: $3.5, Anillo 3: $5).
 * **ARansys (Admin):** Supervisión de transacciones, mediación de garantías y liquidación de pagos a los delivery.
+## 5. Sistema de Reputación y Confianza
+Para garantizar la calidad del servicio, ARansys implementa un sistema de validación social:
+
+### A. Perfil del Aliado (Tiendas y Técnicos)
+* **Barra de Calificación:** Un indicador visual basado en estrellas (1-5) que resume el promedio de satisfacción de los clientes.
+* **Trayectoria:** Mención explícita de los "Años en el Mercado". Este dato es vital para generar autoridad y confianza en negocios establecidos de Maturín.
+* **Multicategoría (Técnicos):** Los técnicos pueden registrar múltiples especialidades (ej. Refrigeración + Electrónica), aumentando su visibilidad.
+
+### B. Sistema de Calificación Triple
+Al finalizar cada transacción, el cliente tendrá la obligación/derecho de calificar:
+1. **Tienda:** Calidad del producto y veracidad de lo publicado (Positivo / Regular / Negativo).
+2. **Técnico:** Puntualidad, conocimiento y trato al cliente.
+3. **Delivery:** Rapidez y estado del paquete al llegar.
+
+### C. Dinámica para Técnicos (Pago por Selección)
+* **Costo por Contacto:** Se descontarán **$3.00** del monedero del técnico únicamente cuando el cliente presione el botón "Elegir este Técnico".
+* **Transparencia:** Tras el cobro, el sistema libera los datos de contacto (WhatsApp/Teléfono) para la coordinación del servicio.
+## 6. Política de Reembolso Protegido para Técnicos
+Para garantizar la equidad en el sistema de "Pago por Selección", se establece el siguiente protocolo de protección al técnico:
+
+* **Derecho a Reclamo:** Si tras el descuento de los $3.00 el técnico no logra establecer contacto con el cliente (número errado, el cliente no responde tras 24h, o el servicio fue cancelado por el cliente antes de la visita), el técnico podrá presionar el botón "Reportar Incidencia".
+* **Validación:** ARansys verificará la situación (mediante un mensaje rápido al cliente o revisión de tiempos).
+* **Reembolso:** De comprobarse la falla en el contacto, los $3.00 serán devueltos íntegramente al "Saldo Real" del monedero del técnico en un plazo máximo de 12 horas.
