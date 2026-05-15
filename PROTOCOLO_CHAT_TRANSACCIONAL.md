@@ -1,3 +1,7 @@
+## 4. Política de 'Evidencia Escrita'
+* **Invalidez de Acuerdos Externos:** ARansys no reconocerá reclamos ni garantías sobre acuerdos hechos fuera del chat oficial de la plataforma (WhatsApp personal, llamadas, etc.).
+* **Persistencia de Datos:** Los registros de chat se mantendrán en el servidor por un periodo de [X] meses después de cerrada la venta para auditorías posteriores.
+* **Capturas de Pago:** Es obligatorio que la imagen del comprobante de pago sea legible y esté adjunta en el flujo del chat.
 # ARansys - Protocolo de Chat Transaccional
 
 ## 1. El Chat como Entorno Seguro
