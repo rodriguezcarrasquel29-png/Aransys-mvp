@@ -22,3 +22,8 @@
     - El precio debe ser mayor a 0.
     - Los correos electrónicos deben seguir el formato estándar.
 * **Triggers de Auditoría:** Registro automático de quién modificó un precio y a qué hora.
+## 5. Tabla de Apelaciones y Disputas
+* **Propósito:** Proteger la reputación de los técnicos y la integridad de las tiendas ante reseñas falsas o malintencionadas.
+* **Campos Críticos:** ID de Orden, Evidencia Fotográfica (URL), Estado del Caso y Veredicto Final.
+* **Regla de Negocio:** Una calificación en disputa se marca como 'congelada' y no afecta el promedio del usuario hasta que un administrador dicte el veredicto.
+* **Historial de Apelaciones:** Se lleva un registro de cuántas veces un usuario (cliente o técnico) apela, para detectar comportamientos abusivos del sistema.
