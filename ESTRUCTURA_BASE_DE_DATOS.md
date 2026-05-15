@@ -14,3 +14,11 @@
 ## 3. Seguridad de Datos
 * Las contraseñas y PINs nunca se guardan en texto plano (Uso de Hashing).
 * Copias de seguridad automáticas cada 24 horas en un volumen separado.
+## 4. Definición de Integridad Rígida (SQL Strict Mode)
+* **Tipos de Datos Estrictos:** Uso de DECIMAL para finanzas y UUID para identificadores.
+* **Foreign Keys (FK):** Ningún registro puede existir huérfano; todo pedido debe estar amarrado a un usuario y una tienda existente.
+* **Constraints (Restricciones):**
+    - El stock nunca puede ser negativo.
+    - El precio debe ser mayor a 0.
+    - Los correos electrónicos deben seguir el formato estándar.
+* **Triggers de Auditoría:** Registro automático de quién modificó un precio y a qué hora.
