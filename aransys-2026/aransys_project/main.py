@@ -1,26 +1,36 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
-import models, database
+import models, schemas, database
 
-# Creamos las tablas en el celular
 models.Base.metadata.create_all(bind=database.engine)
 
 app = FastAPI()
 
-# Función para calcular el flete en Maturín
-def calcular_flete(distancia_km):
-    if distancia_km <= 3: return 1  # Anillo 1
-    elif distancia_km <= 7: return 2 # Anillo 2
-    elif distancia_km <= 15: return 3 # Anillo 3
-    else: return 4 # Anillo 4
+def get_db():
+    db = database.SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
 
 @app.get("/")
-def inicio():
-    return {"mensaje": "ARansys Maturín 2026 - Sistema de Repuestos"}
+def home():
+    return {"status": "ARansys Online", "ciudad": "Maturin"}
 
-# Ruta para calcular envío rápidamente
-@app.get("/cotizar/{distancia}")
-def cotizar(distancia: float):
-    anillo = calcular_flete(distancia)
-    return {"distancia": distancia, "anillo": anillo, "costo_estimado": f"Zona {anillo}"}
+@app.post("/repuestos/", response_model=schemas.RepuestoResponse)
+def crear_repuesto(repuesto: schemas.RepuestoCreate, db: Session = Depends(get_db)):
+    nuevo_db = models.RepuestoTabla(
+        nombre=repuesto.nombre,
+        marca=repuesto.marca,
+        modelo_carro=repuesto.modelo_carro,
+        precio=repuesto.precio,
+        anillo=repuesto.anillo
+    )
+    db.add(nuevo_db)
+    db.commit()
+    db.refresh(nuevo_db)
+    return nuevo_db
 
+@app.get("/repuestos/")
+def listar_repuestos(db: Session = Depends(get_db)):
+    return db.query(models.RepuestoTabla).all()
